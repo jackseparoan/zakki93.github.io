@@ -1,13 +1,34 @@
-<h1 style="text-align: center;">Batur - Batur Ikmi<h1>
-	<h2 style="text-align: center;">MUH MUZAKI | 42210017</h2>
 	<style>
+		/*KABEH BAE*/
+		body{
+			background-color: #f1f1f1;
+		}
+		/*ENDAS 1*/
+		h1{
+			text-align: center;
+			cursor: pointer;
+			transition: 0.2s;
+		}
+		h1:hover{
+			color: red;
+			letter-spacing: 2px;
+		}
+		h2{
+			text-align: center;
+			cursor: pointer;
+			transition: 0.2s;
+		}
+		h2:hover{
+			color: blue;
+			letter-spacing: 2px;
+		}
 		table {
 			width: 100%;
 			border-collapse: collapse;
 
 		}
 		td {
-			border: 1px solid #dddddd;
+			border: 2px solid blue;
 			text-align: left;
 			padding: 8px;
 			cursor: pointer;
@@ -17,14 +38,43 @@
 			background-color: skyblue;
 		}
 		th {
+			background-color: #cdc8b1;
 			padding: 8px;
-			border: 1px solid #dddddd;
+			border: 2px solid blue;
+			cursor: pointer;
+			transition: 0.2s;
+		}
+		th:hover{
+			color: floralwhite;
+			letter-spacing: 2px;
 		}
 		tr:nth-child(even){
 			background-color: #D6EEEE;
 		}
-
+		button {
+			background-color: #4CAF50;
+			padding: 16px 20px;
+			margin: 8px 0;
+			border: none;
+			cursor: pointer;
+			color: white;
+			//width: 50%;
+			opacity: 0.9;
+			transition: 0.3s;
+		}
+		button:hover{
+			background-color: red;
+			letter-spacing: 2px;
+		}
+		.kiwe{
+			float: left;
+		}
+		.tengen{
+			float: right;
+		}
 	</style>
+	<h1>Batur - Batur Ikmi<h1>
+	<h2 style="text-align: center;">MUH MUZAKI | 42210017</h2>
 
 	<table class="tabelku">
 		<tr>
@@ -72,6 +122,18 @@
 
 	</table>
 	<H3>
-	<button><a href="https://zakki93.github.io/P03">LIHAT P03</a></button>
-	<button><a href="https://zakki93.github.io">LIHAT P02</a></button>
+	<script>
+		function p02() {
+		window.open("https://zakki93.github.io");
+		}
+		function p03() {window.open("https://zakki93.github.io/P03")}
+	</script>
+	<ul class="kiwe">
+      <button type="button" onclick="p02()">
+        Kembali Ke Jalan Yang lurus</button>
+    </ul>
+    <ul class="tengen">
+    	<button type="button" onclick="p03()">
+        Kembali Ke Jalan Buntu</button>
+    </ul>
 </H3>
