@@ -1,0 +1,32 @@
+h2{
+	color: darkred;
+}
+body{
+	width: auto;
+	padding: 70px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+fieldset{
+	background-color: powderblue;
+	display: flex;
+	font-display: flex;
+}
+legend{
+	font-weight: bold;
+}
+.pencetan{
+	width: 50%;
+	height: 40px;
+	padding: 5px 0;
+	border: none;
+	background-color: skyblue;
+	font-size: 18px;
+	color: black;
+	border-radius: 10px;
+}
+.pencetan:hover{
+	background-color: darkred;
+}
+.posisi_kolom{
+	width: 100%;
+}
